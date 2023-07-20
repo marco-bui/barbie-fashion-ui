@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+}
+
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 0 4px 4px rgba(102, 102, 102, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 200x;
+  height: 80px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.setting-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  gap: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  display: none;
+  box-shadow: 3px 3px 0 rgba(102, 102, 102, 0.1);
+  z-index: 1;
+}
+
+nav li {
+  list-style: none;
+  padding: 25px 25px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+body {
+  background-color: white;
+}
+
+.count-down-box {
+  text-align: center;
+  background-color:pink;
+  height: 15vw;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.count-down-text {
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 25px;
+  color:deeppink
+}
+
+.count-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
+  border: 4px solid white;
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  color: white;
+}
+
+.space {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22vw;
+}
+
+.category {
+  width: 20%;
+  margin: 25px;
+  height: 300px;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: top ease 1s;
+}
+
+.category:hover {
+  top: -10px;
+  right: -3px;
+}
+
+.category img {
+  object-fit: cover;
+  width: 100%;
+  height: 92%;
+  border-radius: 25px;
+}
+
+.category p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  margin: 20%;
+}
+
+.top-products-box {
+  background-color: pink;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.top-products-text {
+  font-weight: bold;
+  font-size: 70px;
+  color: deeppink;
+}
+
+.top-products {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  width: 25%;
+  background-color: white;
+  position: relative;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 4px 4px 0 rgba(102, 102, 102, 0.1);
+  cursor: pointer;
+  transition: top ease 1s;
+}
+
+.product:hover {
+  top: -10px;
+  right: -3px;
+}
+
+.product img {
+  border-radius: 25px;
+}
+
+.product-sale {
+  color: white;
+  background-color: red;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: -4%;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.original-price {
+  color: silver;
+  text-decoration: line-through;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.sale-price {
+  color: red;
+  font-weight: bold;
+}
+
+.sale-products-box {
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.sale-products-text {
+  font-weight: bold;
+  font-size: 70px;
+  color: deeppink;
+}
+
+.sale-products {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: deeppink;
+  display: flex;
+}
+
+.contact {
+  margin: 50px;
+  width: 35%;
+}
+
+.contact h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+}
+
+form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button {
+  width: 15%;
+  height: 50px;
+  font-weight: bold;
+  background-color: deeppink;
+  border: 3px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.information {
+  padding: 50px;
+}
+
+.information h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+}
+
+.information p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  max-width: 50vw;
+}
+
+.information-icons {
+  margin-top: 25px;
+  display: flex;
+}
+
+.icon {
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.icon-right {
+  margin-left: 10px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+  margin: 15%;
+}
