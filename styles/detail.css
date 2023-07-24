@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+  }
+  
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    box-shadow: 0 4px 4px rgba(102, 102, 102, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo {
+    width: 200x;
+    height: 80px;
+  }
+  
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .setting-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    gap: 20px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    display: none;
+    box-shadow: 3px 3px 0 rgba(102, 102, 102, 0.1);
+    z-index: 1;
+  }
+  
+  nav li {
+    list-style: none;
+    padding: 25px 25px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  body {
+    background-color: white;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .detail {
+    margin: 5% 10% 10% 5%; 
+    width: 80%;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    color: gray;
+  }
+
+  .detail-product {
+    display: flex;
+    justify-content: center;
+  }
+
+  .detail-product img {
+    width: 60%;
+  }
+
+  .detail-information {
+    margin-left: 10px;
+    font-size: 20px;;
+  }
+
+  .detail-color {
+    margin: 10px;
+    display: flex;
+  }
+
+  .detail-size {
+    margin: 10px;
+    display: flex;
+  }
+
+  .size {
+    width: 45px;
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+  }
+
+  .size:hover {
+    background-color: deeppink;
+    color: white;
+  }
+
+  .select-size {
+    background-color: deeppink;
+    color: white;
+  }
+
+  .right {
+    margin-left: 10px;
+  }
+
+  .color {
+    width: 45px;
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .green {
+    background-color: greenyellow;
+  }
+
+  .red {
+    background-color:orangered;
+    margin-left: 10px;
+  }
+
+  .buy-now-button {
+    margin-top: 50px;
+    height: 60px;
+    width: 150px;
+    color: white;
+    background-color: deeppink;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  p {
+    margin-top: 20px;
+    color: deeppink;
+    font-weight: bold;
+  }
+
+  span {
+    color: black;
+  }
+
+  .original-price {
+    margin-right: 5px;
+    color: silver;
+    text-decoration: line-through;
+  }
+
+  footer {
+    background-color: deeppink;
+    display: flex;
+  }
+  
+  .contact {
+    margin: 50px;
+    width: 35%;
+  }
+  
+  .contact h2 {
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+  }
+  
+  form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  form button {
+    width: 15%;
+    height: 50px;
+    font-weight: bold;
+    background-color: deeppink;
+    border: 3px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .information {
+    padding: 50px;
+  }
+  
+  .information h2 {
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+  }
+  
+  .information p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    max-width: 50vw;
+  }
+  
+  .information-icons {
+    margin-top: 25px;
+    display: flex;
+  }
+  
+  .icon {
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .icon-right {
+    margin-left: 10px;
+  }
+  
+  .icon img {
+    width: 30px;
+    height: 30px;
+    margin: 15%;
+  }
